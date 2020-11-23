@@ -91,6 +91,15 @@ def get_camera_mode_cfg(headers, url):
     response = requests.request("POST", url, headers=headers, data=json_str)
     print(f'get_camera_mode_cfg:', response.text)
 
+def get_external_led_status(headers, url):
+    get_external_led_status = {
+        "type": "get_external_led_status",
+        "module": "BUS_REQUEST_MESSAGE"
+    }
+    json_str = json.dumps(get_external_led_status)
+    response = requests.request("POST", url, headers=headers, data=json_str)
+    print(f'get_external_led_status:', response.text)
+
 
 def login(url):
     # login
@@ -125,3 +134,4 @@ if __name__ == '__main__':
     # set_dev_led(headers, request_url)
     # set_camera_mode_cfg(headers, request_url)
     get_camera_mode_cfg(headers, request_url)
+    get_external_led_status(headers, request_url)
