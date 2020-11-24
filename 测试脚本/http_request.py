@@ -121,6 +121,44 @@ def set_external_control_framestatus(headers):
     print(f'set_external_control_framestatus:', response.text)
 
 
+def get_current_image():
+    url = "http://192.168.104.199/html/img/result_0.jpg"
+    headers = {
+        "Proxy-Connection": "keep-alive",
+        "Pragma": "no-cache",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "192.168.104.199",
+        "Upgrade-Insecure-Requests": "1"
+    }
+    response = requests.request("GET", url, headers=headers)
+    # print(f'get_current_image:', response)
+
+
+def get_plate_result():
+    url = "http://192.168.104.199/get_plate_result_poll.php"
+    headers = {
+        "Proxy-Connection": "keep-alive",
+        "Pragma": "no-cache",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "192.168.104.199",
+        "Upgrade-Insecure-Requests": "1"
+    }
+    response = requests.request("GET", url, headers=headers)
+    print('get_plate_result:', response.content)
+
+
 def login(url):
     # login
     # url = "http://192.168.112.206/request.php"
@@ -149,10 +187,12 @@ def login(url):
 
 if __name__ == '__main__':
     request_url = "http://192.168.104.199/request.php"
-    headers = login(request_url)
+    # headers = login(request_url)
     # get_backup_http_server(headers, request_url)
     # set_dev_led(headers, request_url)
     # set_camera_mode_cfg(headers, request_url)
     # get_camera_mode_cfg(headers, request_url)
     # get_external_led_status(headers, request_url)
-    set_external_control_framestatus(headers)
+    # set_external_control_framestatus(headers)
+    # get_current_image()
+    get_plate_result()
