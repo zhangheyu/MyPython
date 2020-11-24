@@ -91,6 +91,7 @@ def get_camera_mode_cfg(headers, url):
     response = requests.request("POST", url, headers=headers, data=json_str)
     print(f'get_camera_mode_cfg:', response.text)
 
+
 def get_external_led_status(headers, url):
     get_external_led_status = {
         "type": "get_external_led_status",
@@ -99,6 +100,25 @@ def get_external_led_status(headers, url):
     json_str = json.dumps(get_external_led_status)
     response = requests.request("POST", url, headers=headers, data=json_str)
     print(f'get_external_led_status:', response.text)
+
+
+def set_external_control_framestatus(headers):
+    url = "http://192.168.104.243/external_control_message.php"
+    # "192.168.112.205/external_control_message.php"
+    frame_status = {
+        "type": "external_control_framestatus",
+        "module": "BUS_EXT_REQUEST_MESSAGE",
+        "body": {
+            "ip": "192.168.6.188",
+            "type": "external_control_framestatus",
+            "body": {
+                "frame_status": [1, 1, 1]
+            }
+        }
+    }
+    json_str = json.dumps(frame_status)
+    response = requests.request("POST", url, headers=headers, data=json_str)
+    print(f'set_external_control_framestatus:', response.text)
 
 
 def login(url):
@@ -128,10 +148,11 @@ def login(url):
 # get_backup_http_server(headers, request_url)
 
 if __name__ == '__main__':
-    request_url = "http://192.168.112.205/request.php"
+    request_url = "http://192.168.104.199/request.php"
     headers = login(request_url)
     # get_backup_http_server(headers, request_url)
     # set_dev_led(headers, request_url)
     # set_camera_mode_cfg(headers, request_url)
-    get_camera_mode_cfg(headers, request_url)
-    get_external_led_status(headers, request_url)
+    # get_camera_mode_cfg(headers, request_url)
+    # get_external_led_status(headers, request_url)
+    set_external_control_framestatus(headers)
