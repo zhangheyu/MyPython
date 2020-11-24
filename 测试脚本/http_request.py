@@ -136,8 +136,10 @@ def get_current_image():
         "Host": "192.168.104.199",
         "Upgrade-Insecure-Requests": "1"
     }
-    response = requests.request("GET", url, headers=headers)
+    # response = requests.request("GET", url, headers=headers)
     # print(f'get_current_image:', response)
+    # resp = requests.get("http://www.baidu.com")
+    # print(resp.content)
 
 
 def get_plate_result():
