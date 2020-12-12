@@ -24,44 +24,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bffab012-9844-4031-905d-1cec2eb69dfb" name="Default Changelist" comment="获取当前识别结果">
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909053664.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909054732.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909055519.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909060519.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909061540.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909062377.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909063284.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909064043.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909064874.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909065795.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909070338.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909071276.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909072286.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909073071.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909073866.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/初夏の小雏菊Ⅰ/2020102909074795.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/爬取图片.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/14BB45B2-0FCD-4502-BE4F-AC4DC3C2B772-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/1DC490C0-F289-4B01-A8AD-61F86B0179EE-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/31187C1E-1EA1-4B18-A196-D311A122D012-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/470B6B0D-609A-4A84-A533-351AF30F3927-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/4CEA267D-B604-4D61-AC0F-A9839BB63DF5-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/5665E6D5-DF9B-475F-AAC8-DD9F689B71A9-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/6FCC04DD-B7E1-493F-9834-BE221DD085CE-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/762D97D1-17E1-4928-8F7D-DCE7C0093C38-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/87C29B66-ECC0-492F-8F01-BBC1C9412D2D-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/8FC5182A-1C7C-467C-8C5D-0618D825C1AF-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/90DBAC73-6785-4653-9E7D-6EABBCEE3134-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/A15D1787-CB78-4EAE-A44E-FB725E7E7344-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/A67B2C2E-CF20-42A2-B00C-D09BEBDB6D69-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/DCEA6769-86EB-4118-A317-A4D31B13CA31-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/E1DF3578-2865-430B-9518-AA7EB7C05459-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/E5F964DF-BEC8-4399-90FF-5131A1D5F406-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/FCFD06E3-B94D-49D0-8195-D750CE1D8827-1-scaled.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/秋日温柔，人间理想/FDF53E13-D836-4E4D-B1E1-28555D3EBBE4-1-scaled.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bffab012-9844-4031-905d-1cec2eb69dfb" name="Default Changelist" comment="添加gitignore文件">
+      <change afterPath="$PROJECT_DIR$/爬虫/化妆品生产许企业信息.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/百度翻译.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/简易网页采集器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/药监总局.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/豆瓣喜剧电影排行前50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/豆瓣喜剧电影排行榜.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +70,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.爬取图片">
+  <component name="RunManager" selected="Python.药监总局">
     <configuration name="爬取图片" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="download_jpg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="简易网页采集器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/download_jpg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/简易网页采集器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="http_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="百度翻译" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,34 +123,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/测试脚本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试脚本/http_request.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="http_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MyPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/http" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/http/http_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/百度翻译.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tuling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="豆瓣喜剧电影排行榜" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,12 +145,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/tuling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/豆瓣喜剧电影排行榜.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="药监总局" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/药监总局.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.药监总局" />
+        <item itemvalue="Python.百度翻译" />
+        <item itemvalue="Python.豆瓣喜剧电影排行榜" />
+        <item itemvalue="Python.简易网页采集器" />
         <item itemvalue="Python.爬取图片" />
-        <item itemvalue="Python.download_jpg" />
-        <item itemvalue="Python.http_server" />
-        <item itemvalue="Python.http_request" />
-        <item itemvalue="Python.tuling" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +209,8 @@
       <workItem from="1606639984309" duration="9000" />
       <workItem from="1606640113454" duration="7000" />
       <workItem from="1606640837543" duration="11000" />
-      <workItem from="1606640887230" duration="2566000" />
+      <workItem from="1606640887230" duration="5305000" />
+      <workItem from="1607092677572" duration="13380000" />
     </task>
     <task id="LOCAL-00001" summary="模拟控制其他相机">
       <created>1606196085962</created>
@@ -263,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606210790755</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="简单的爬取图片的脚本">
+      <created>1606643625972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606643625972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加gitignore文件">
+      <created>1606644539251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606644539251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,52 +270,63 @@
     <MESSAGE value="模拟控制其他相机" />
     <MESSAGE value="获取当前识别结果" />
     <MESSAGE value="add project config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project config files" />
+    <MESSAGE value="简单的爬取图片的脚本" />
+    <MESSAGE value="添加gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加gitignore文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1606210639141">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="502" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607761978773">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="502" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1607761978773" />
+    <state x="74" y="73" width="1736" height="856" key="DiffContextDialog" timestamp="1606643651791">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="74" y="73" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1606643651791" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606210639141" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606484969672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606484969672" />
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1606643404702">
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1607765600867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606643404702" />
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607765600867" />
     <state width="1869" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606210813309" />
-    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1606643404701">
+    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1607765600866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606643404701" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607765600866" />
     <state width="1869" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606210813308" />
-    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1606643404701">
+    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1607765600866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606643404701" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607765600866" />
     <state width="1869" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606210813308" />
-    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1606643404701">
+    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1607765600866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606643404701" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607765600866" />
     <state width="1869" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606210813308" />
-    <state width="1869" height="333" key="GridCell.Tab.1.bottom" timestamp="1606210460861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1607758365943">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607758365943" />
     <state width="1869" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606210460861" />
-    <state width="1869" height="333" key="GridCell.Tab.1.center" timestamp="1606210460861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1607758365943">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607758365943" />
     <state width="1869" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606210460861" />
-    <state width="1869" height="333" key="GridCell.Tab.1.left" timestamp="1606210460861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1607758365943">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607758365943" />
     <state width="1869" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606210460861" />
-    <state width="1869" height="333" key="GridCell.Tab.1.right" timestamp="1606210460861">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1607758365943">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607758365943" />
     <state width="1869" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606210460861" />
     <state x="761" y="175" key="RollbackChangesDialog" timestamp="1606209289482">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -341,19 +336,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="374" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606210316862" />
-    <state x="362" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606225264449">
+    <state x="362" y="149" key="Vcs.Push.Dialog.v2" timestamp="1606644543004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606225264449" />
+    <state x="362" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606644543004" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606210801808" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606210317230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606210317230" />
-    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606226290658">
+    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606913743152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606226290658" />
+    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606913743152" />
     <state x="683" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606208267802" />
   </component>
   <component name="XDebuggerManager">
@@ -368,7 +363,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="爬取图片 Coverage Results" MODIFIED="1606643404668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/MyPython$.coverage" NAME="药监总局 Coverage Results" MODIFIED="1607765600860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/MyPython$http_server.coverage" NAME="http_server Coverage Results" MODIFIED="1606225307752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/http" />
     <SUITE FILE_PATH="coverage/MyPython$http_request.coverage" NAME="http_request Coverage Results" MODIFIED="1606210750809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试脚本" />
     <SUITE FILE_PATH="coverage/MyPython$tuling.coverage" NAME="tuling Coverage Results" MODIFIED="1606196969958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
