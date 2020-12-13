@@ -24,8 +24,10 @@ if __name__ == '__main__':
         print('获取详情成功!')
         soup_detail = BeautifulSoup(detail_page_text, 'lxml')
         div_tag = soup_detail.find('div', class_='chapter_content')
-        content = div_tag.text  # text返回所有的div标签的下层标签对于的文本
+        content = div_tag.text  # text返回所有的div标签的下层标签对应的文本
         print(content)
         fp.write('\t\t\t\t\t' + title + content + '\n')
         print(f'爬取{title} 完成')
         time.sleep(0.5)
+    fp.close()
+

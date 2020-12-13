@@ -25,132 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bffab012-9844-4031-905d-1cec2eb69dfb" name="Default Changelist" comment="添加gitignore文件">
-      <change afterPath="$PROJECT_DIR$/爬虫/bs4解析学习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486125412.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486134058.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486200839.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486203539.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486221644.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486231893.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486247982.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486282391.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486293591.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486308116.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486317223.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486359792.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486375734.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486377492.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486392877.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486393307.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486403144.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486477309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486507846.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486640257.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486641356.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486659574.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486669007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486683472.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486706037.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486710049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486753395.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486816031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486844393.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486888788.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486894463.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486925482.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486949222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486966614.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810486996690.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487108497.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487110228.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487155121.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487162603.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487166963.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487169530.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487226570.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487230377.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487239301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487248115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487283145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487327159.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487341932.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487371527.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487397102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487417667.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487438085.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487471119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487484595.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487567776.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487592380.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487623650.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487654245.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487699179.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487744733.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487762380.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487778542.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487836411.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487872207.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487893732.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487903238.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487914083.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487932685.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487940268.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487943714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487945274.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487948163.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487950327.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487953306.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810487997819.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488118156.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488135537.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488145909.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488149447.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488162512.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488192217.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488196826.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488213409.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488232746.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488250728.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488347215.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488369435.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488384464.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488403564.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488424656.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488427574.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488513649.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488519532.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488522357.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488596234.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488632277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488634618.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488651707.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488695348.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488700013.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488717981.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488721783.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488776138.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488812039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488853869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488881038.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488923538.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488924186.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488924861.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488968204.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488978088.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810488979419.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489158518.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489200727.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489377525.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489455863.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489462045.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489508704.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489597832.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/cwy/1596810489922313.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/test_bs4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/使用bs4抓取数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/夜曲.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/正则解析.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/使用bs4抓取数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/使用bs4抓取数据.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +206,7 @@
       <workItem from="1606640113454" duration="7000" />
       <workItem from="1606640837543" duration="11000" />
       <workItem from="1606640887230" duration="5305000" />
-      <workItem from="1607092677572" duration="38912000" />
+      <workItem from="1607092677572" duration="39382000" />
     </task>
     <task id="LOCAL-00001" summary="模拟控制其他相机">
       <created>1606196085962</created>
@@ -374,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607765863089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="正则和bs4抓取数据学习">
+      <created>1607870195436</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607870195436</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +283,8 @@
     <MESSAGE value="简单的爬取图片的脚本" />
     <MESSAGE value="添加gitignore文件" />
     <MESSAGE value="简单的request库网页爬数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单的request库网页爬数据" />
+    <MESSAGE value="正则和bs4抓取数据学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则和bs4抓取数据学习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607843647959">
@@ -465,19 +349,19 @@
     </state>
     <state x="299" y="62" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607861598862" />
     <state x="374" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606210316862" />
-    <state x="362" y="149" key="Vcs.Push.Dialog.v2" timestamp="1607765875236">
+    <state x="362" y="149" key="Vcs.Push.Dialog.v2" timestamp="1607870203222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607765875236" />
+    <state x="362" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607870203222" />
     <state x="452" y="188" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606210801808" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606210317230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606210317230" />
-    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607766041546">
+    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607870125061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607766041546" />
+    <state x="546" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607870125061" />
     <state x="683" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606208267802" />
   </component>
   <component name="XDebuggerManager">
