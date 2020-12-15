@@ -7,13 +7,15 @@ ua = UserAgent()
 
 if __name__ == '__main__':
     print('使用bs4抓取三国演义所有的章节内容')
-    url = 'https://www.shicimingju.com/book/sanguoyanyi.html'
+    sanguo_url = 'https://www.shicimingju.com/book/sanguoyanyi.html'
+    hong_lou = 'https://www.shicimingju.com/book/hongloumeng.html'
     headers = {"User-Agent": ua.random}
-    page_text = requests.get(url=url, headers=headers).text
+    page_text = requests.get(url=hong_lou, headers=headers).text
     soup = BeautifulSoup(page_text, 'lxml')
     # 解析章节标题和详情页url
     li_list = soup.select('.book-mulu > ul > li')
-    fp = open('三国演义.txt', 'w', encoding='utf-8')
+    # fp = open('三国演义.txt', 'w', encoding='utf-8')
+    fp = open('红楼梦.txt', 'w', encoding='utf-8')
     print('解析章节标题和详情页url')
     for li in li_list:
         headers = {"User-Agent": ua.random}
