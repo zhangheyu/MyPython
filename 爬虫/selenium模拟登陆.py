@@ -14,7 +14,7 @@ if __name__ == '__main__':
     passwd_tag = bro.find_element_by_id('p')
     user_tag.send_keys('1371542956')
     sleep(1)
-    passwd_tag.send_keys('261219zhy')
+    passwd_tag.send_keys('passwd')
     sleep(1)
     button_login = bro.find_element_by_id('login_button')
     button_login.click()
