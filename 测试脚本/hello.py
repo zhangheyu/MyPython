@@ -17,5 +17,15 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     return []
 
 
-result = twoSum([2, 7, 11, 15], 9)
-print(result)
+# result = twoSum([2, 7, 11, 15], 9)
+# print(result)
+
+import requests
+from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
+import time
+
+ua = UserAgent()
+headers = {"User-Agent": ua.random}
+resp = requests.get(url='http://wb99.xyz/portal.php?x=786946', headers=headers)
+print(resp.text)
