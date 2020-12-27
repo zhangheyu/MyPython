@@ -67,6 +67,8 @@ LOG_LEVEL = 'ERROR'
 ITEM_PIPELINES = {
    #  开启管道，300代表优先级，数字越小，优先级越高
    'scrapyStudy.pipelines.ScrapystudyPipeline': 300,
+   # 电脑没有mysql环境，先不启用
+   # 'scrapyStudy.pipelines.mysqlPipeline': 301,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
