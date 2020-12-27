@@ -1,4 +1,5 @@
 import scrapy
+from scrapyStudy.items import ScrapystudyItem
 
 
 class FirstSpider(scrapy.Spider):
@@ -10,7 +11,26 @@ class FirstSpider(scrapy.Spider):
     start_urls = ['https://www.qiushibaike.com/text/']
 
     # 用于数据解析，response返回请求成功后对应的数据
+    # 基于管道存储爬取到的数据
     def parse(self, response):
+        # 解析作者的名字+段子内容
+        div_list = response.xpath('//*[@id="content"]/div/div[2]/div')
+        for div in div_list:
+            # xpath返回的是列表，但列表类型一定是Selector类型的对象
+            # [<Selector xpath='./div[1]/a[2]/h2/text()' data='\n无书斋主\n'>]
+            # extract()可以将Selector对象的data存储的字符串提取出来
+            author = div.xpath('./div[1]/a[2]/h2/text() | ./div[1]/span/h2/text()')[0].extract()
+            # 列表调用了extract()后，则表示将列表中每一个selector对象中data对应的字符串提取出来
+            content = div.xpath('./a[1]/div/span/text()').extract()
+            content = ''.join(content)
+            # print(f'作者：{author.strip()}\t段子：{content.strip()}')
+            item = ScrapystudyItem()
+            item['author'] = author.strip()
+            item['content'] = content.strip()
+            yield item  # 将item提交给管道
+
+    # 基于终端指令持久化存储
+    def parse_cmd(self, response):
         # 解析作者的名字+段子内容
         div_list = response.xpath('//*[@id="content"]/div/div[2]/div')
         # print(len(div_list))

@@ -64,9 +64,10 @@ LOG_LEVEL = 'ERROR'
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'scrapyStudy.pipelines.ScrapystudyPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   #  开启管道，300代表优先级，数字越小，优先级越高
+   'scrapyStudy.pipelines.ScrapystudyPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
