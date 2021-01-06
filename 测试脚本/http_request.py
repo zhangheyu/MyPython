@@ -161,6 +161,33 @@ def get_plate_result():
     print('get_plate_result:', response.content)
 
 
+def get_new_energy_plate_support():
+    url = "http://192.168.118.206/avsjson.php"
+    headers = {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": "remember=1; sessionID=1609955606a533958471; outtext=loj1X3t7e3vNS0RBzFa6Lxx1dw%3D%3D",
+        "Host": "192.168.118.206",
+        "Origin": "http://192.168.118.206",
+        "Pragma": "no-cache",
+        "Referer": "http://192.168.118.206/login.htm",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+    }
+    get_new_energy_plate_support = {
+        "type": "get_new_energy_plate_support"
+    }
+
+    json_str = json.dumps(get_new_energy_plate_support)
+    print(json_str)
+    response = requests.request("GET", url, headers=headers, data=json_str)
+    print('get_new_energy_plate_support:', response.content, response.status_code)
+
+
 def login(url):
     # login
     # url = "http://192.168.112.206/request.php"
@@ -197,4 +224,5 @@ if __name__ == '__main__':
     # get_external_led_status(headers, request_url)
     # set_external_control_framestatus(headers)
     # get_current_image()
-    get_plate_result()
+    # get_plate_result()
+    get_new_energy_plate_support()
