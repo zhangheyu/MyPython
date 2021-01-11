@@ -188,6 +188,27 @@ def get_new_energy_plate_support():
     print('get_new_energy_plate_support:', response.content, response.status_code)
 
 
+def avs_trigger_r2():
+    url = "http://192.168.118.206/avstrigger.php"
+    headers = {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Cookie": "sessionID=1610278786a1606450142; outtext=%2F3b6X7%2B%2Fv7%2FnbfEjfq0Iz1mQOg%3D%3D",
+        "Host": "192.168.118.206",
+        "Origin": "http://192.168.118.206",
+        "Pragma": "no-cache",
+        "Referer": "http://192.168.118.206/login.htm",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+    }
+    response = requests.request("GET", url, headers=headers)
+    print('avs_trigger_r2:', response.content)
+
+
 def login(url):
     # login
     # url = "http://192.168.112.206/request.php"
@@ -225,4 +246,7 @@ if __name__ == '__main__':
     # set_external_control_framestatus(headers)
     # get_current_image()
     # get_plate_result()
-    get_new_energy_plate_support()
+    # get_new_energy_plate_support()
+    while True :
+        avs_trigger_r2()
+        time.sleep(3)
