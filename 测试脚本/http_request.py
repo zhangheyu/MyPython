@@ -122,24 +122,16 @@ def set_external_control_framestatus(headers):
 
 
 def get_current_image():
-    url = "http://192.168.104.199/html/img/result_0.jpg"
+    url = "http://192.168.104.200/html/img/result_0.jpg"
     headers = {
-        "Proxy-Connection": "keep-alive",
-        "Pragma": "no-cache",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "Accept-Encoding": "gzip, deflate",
-        "Cache-Control": "no-cache",
-        "Connection": "keep-alive",
-        "Content-Type": "application/x-www-form-urlencoded",
-        "Host": "192.168.104.199",
-        "Upgrade-Insecure-Requests": "1"
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
     }
-    # response = requests.request("GET", url, headers=headers)
+    response = requests.request("GET", url, headers=headers)
     # print(f'get_current_image:', response)
-    # resp = requests.get("http://www.baidu.com")
-    # print(resp.content)
+    print(response.text)
+    print(response.status_code)
 
 
 def get_plate_result():
@@ -189,7 +181,8 @@ def get_new_energy_plate_support():
 
 
 def avs_trigger_r2():
-    url = "http://192.168.118.206/avstrigger.php"
+    # url = "http://192.168.118.206/avstrigger.php"
+    url = "http://192.168.109.223/avstrigger.php"
     headers = {
         "Accept": "*/*",
         "Accept-Encoding": "gzip, deflate",
@@ -197,11 +190,11 @@ def avs_trigger_r2():
         "Cache-Control": "no-cache",
         "Connection": "keep-alive",
         "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        "Cookie": "sessionID=1610278786a1606450142; outtext=%2F3b6X7%2B%2Fv7%2FnbfEjfq0Iz1mQOg%3D%3D",
-        "Host": "192.168.118.206",
-        "Origin": "http://192.168.118.206",
+        "Cookie": "sessionID=1611078794a1652181482; remember=1; outtext=C6wGYJ6enp5KlYlUUfKOjNBG7g%3D%3D",
+        "Host": "192.168.109.223",
+        # "Origin": "http://192.168.118.206",
         "Pragma": "no-cache",
-        "Referer": "http://192.168.118.206/login.htm",
+        "Referer": "Referer: http://192.168.109.223/main.htm",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36",
         "X-Requested-With": "XMLHttpRequest"
     }
@@ -244,9 +237,9 @@ if __name__ == '__main__':
     # get_camera_mode_cfg(headers, request_url)
     # get_external_led_status(headers, request_url)
     # set_external_control_framestatus(headers)
-    # get_current_image()
+    get_current_image()
     # get_plate_result()
     # get_new_energy_plate_support()
-    while True :
-        avs_trigger_r2()
-        time.sleep(3)
+    # while True :
+    #     avs_trigger_r2()
+    #     time.sleep(2)
