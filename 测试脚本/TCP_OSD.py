@@ -2,8 +2,9 @@ import socket
 import json
 from ctypes import create_string_buffer
 import struct
+import time
 
-ip = '192.168.112.92'
+ip = '192.168.13.112'
 port = 8131
 
 client_fd = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -55,4 +56,7 @@ struct.pack_into(">I", buf, 4, cmd_len)
 struct.pack_into(">" + str(cmd_len) + "s", buf, 8, cmd_data)
 
 client_fd.sendall(buf)
+# time.sleep(0.1)
+response = client_fd.recv(2048)
+print('response', response.decode('utf-8'))
 client_fd.close()
