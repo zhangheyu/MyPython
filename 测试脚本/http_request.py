@@ -150,9 +150,11 @@ def get_current_image():
 def get_plate_result():
     url = "http://192.168.104.4/get_plate_result_poll.php"
     response = requests.request("GET", url)
-    parkingresult = response.content.decode()
-    # print('get_plate_result:', parkingresult)
-    print(json.dumps(json.loads(parkingresult), sort_keys=True, indent=2))
+    str_obj = response.content.decode()
+    json_obj = json.loads(str_obj)
+    plateresult = json_obj["parkingresult"]["plateresult"]
+    format_result = json.dumps(plateresult, sort_keys=True, indent=2)
+    print(format_result)
 
 
 def get_new_energy_plate_support():
