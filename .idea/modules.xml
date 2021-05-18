@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MyPython.iml" filepath="$PROJECT_DIR$/.idea/MyPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../GitHub/asp/.idea/asp.iml" filepath="$PROJECT_DIR$/../../GitHub/asp/.idea/asp.iml" />
     </modules>
   </component>
 </project>
