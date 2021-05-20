@@ -16,9 +16,8 @@ my_list.append(my_dic2)
 # print(my_dict)
 # print(my_list)
 
-for i, li in enumerate(my_list):
-    print(i, li)
+for li in my_list:
+    print(li)
     li['小明'] = 100
-    my_list[i] = li
     print(my_list)
 
