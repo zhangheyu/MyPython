@@ -1,0 +1,4 @@
+2021-05-22 19:20:09 - E:/WORK/MyPython/study/logging模块学习.py[line:28] - DEBUG: This message should go to the log file
+2021-05-22 19:20:09 - E:/WORK/MyPython/study/logging模块学习.py[line:29] - INFO: So should this
+2021-05-22 19:20:09 - E:/WORK/MyPython/study/logging模块学习.py[line:30] - WARNING: And this, too
+2021-05-22 19:20:09 - E:/WORK/MyPython/study/logging模块学习.py[line:31] - ERROR: logging模块学习 模块日志
