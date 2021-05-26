@@ -8,7 +8,7 @@ print(current_locale, encoding)
 
 LOCALE_DIR = os.path.abspath("locale")
 print(LOCALE_DIR)
-# 这条语句会将_()函数自动放到python的内置命名空间中
+
 gettext.install('guess', LOCALE_DIR)
 
 es = gettext.translation('guess', LOCALE_DIR, [current_locale])
@@ -17,15 +17,16 @@ es.install()
 guessesTaken = 0
 
 print(_("Hello! What's your name?"))
-myName = input()
+myName = input('please input:')
 
 number = random.randint(1, 20)
+
 print(_("Well, {}, I am thinking of a number between 1 and 20.").format(myName))
 
 while guessesTaken < 6:
     guessesTaken += 1
     print(_("Take a guess."))
-    guess = input()
+    guess = input('please input:')
     try:
         guess = int(guess)
     except ValueError:
