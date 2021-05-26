@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-12-24 15:35+CST\n"
+"PO-Revision-Date: 2014-12-24 16:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+
+
+msgid "Hello! What's your name?"
+msgstr "你好！你叫什么名字？"
+
+msgid "Well, {}, I am thinking of a number between 1 and 20."
+msgstr "好的，{}，我心里想了个1到20之间的数。"
+
+msgid "Take a guess."
+msgstr "猜猜看。"
+
+msgid "You should give me a number."
+msgstr "你应该给我个数字。"
+
+
+msgid "Your guess is too low."
+msgstr "你猜低了。"
+
+
+msgid "You guess is too high."
+msgstr "你猜高了。"
+
+
+msgid "Good job, {}! You guessed my number in {} guesses!"
+msgstr "漂亮，{}！你用了{}次猜中了我的数字。"
+
+
+msgid "Nope. The number I was thinking of was {}."
+msgstr "不对。我想的数字是{}。"
