@@ -3,6 +3,8 @@ import logging
 
 # 普通装饰器
 def use_logging(func):
+    print('use_logging')
+
     def wrapper():
         logging.warning("%s is running" % func.__name__)
         # print("use_logging")
@@ -13,6 +15,8 @@ def use_logging(func):
 
 # 函数带参数的装饰器
 def use_logging_with_param(func):
+    print('use_logging_with_param')
+
     def wrapper(*args, **kwargs):
         # args是一个数组，kwargs一个字典
         logging.warning("%s is running" % func.__name__)
@@ -24,6 +28,8 @@ def use_logging_with_param(func):
 
 # 带参数的装饰器
 def use_logging_dynamic_level(level):
+    print('use_logging_dynamic_level')
+
     def decorator(func):
         def wrapper(*args, **kwargs):
             if level == "warn":
@@ -70,7 +76,7 @@ class obj_wrapper(object):
 def gong():
     print('self is gong')
 
-
+# 多装饰器
 def decorator_a(func):
     print('Get in decorator_a')
 
@@ -125,4 +131,4 @@ def to_double(x):
 # square(5, 6)
 # bar("bar")
 # gong()
-to_double(2)
+# to_double(2)
