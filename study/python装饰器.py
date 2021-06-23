@@ -71,9 +71,58 @@ def gong():
     print('self is gong')
 
 
+def decorator_a(func):
+    print('Get in decorator_a')
+
+    def inner_a(*args, **kwargs):
+        print('Get in inner_a')
+        print("inner_a is to run %s" % func.__name__)
+        return func(*args, **kwargs)
+
+    return inner_a
+
+
+def decorator_b(func):
+    print('Get in decorator_b')
+
+    def inner_b(*args, **kwargs):
+        print('Get in inner_b')
+        print("inner_b is to run %s" % func.__name__)
+        return func(*args, **kwargs)
+
+    return inner_b
+
+
+def decorator_c(func):
+    print('Get in decorator_c')
+
+    def inner_c(*args, **kwargs):
+        print('Get in inner_c')
+        print("inner_c is to run %s" % func.__name__)
+        return func(*args, **kwargs)
+
+    return inner_c
+
+
+@decorator_c
+@decorator_b
+@decorator_a
+def to_double(x):
+    """
+        装饰顺序按靠近函数顺序执行（decorator_a->decorator_b->decorator_c），调用时由外而内(inner_c->inner_b->inner_a->to_double)，
+        执行顺序和装饰顺序相反。
+        装饰器也相当于是函数调用,就算不调用to_double(2)，decorator_a->decorator_b->decorator_c也会执行。
+        因此上面inner函数和装饰器函数之间的代码会执行，即使不调用被装饰的to_double(x)函数
+    :param x:
+    :return:
+    """
+    print('Get in to_double')
+    return x * 2
+
+
 # bar()
 # foo()
 # square(5, 6)
 # bar("bar")
-
-gong()
+# gong()
+to_double(2)
