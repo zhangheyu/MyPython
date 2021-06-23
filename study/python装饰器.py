@@ -31,6 +31,8 @@ def use_logging_dynamic_level(level):
     print('use_logging_dynamic_level')
 
     def decorator(func):
+        print(f'use_logging_dynamic_level decorator level({level})')
+
         def wrapper(*args, **kwargs):
             if level == "warn":
                 logging.warning("%s is running" % func.__name__)
