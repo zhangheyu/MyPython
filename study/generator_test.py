@@ -54,3 +54,9 @@ G = (x * 2 for x in range(5))  # 生成器
 print(G)  # <generator object <genexpr> at 0x10fb86a50>
 print(next(G))  # 0
 print(next(G))  # 2
+
+print('-----------------------------')
+
+# 用生成器函数生成list
+l1 = list(my_fibs(10))
+print(l1)
