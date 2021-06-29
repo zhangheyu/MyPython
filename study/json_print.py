@@ -60,3 +60,14 @@ for path, val in path_dict.items():
         tree['cc'] = 'repeat'
 
 print(json.dumps(path_dict, indent=2))
+
+
+result = dict(records='records', column_names='column_names',
+              column_types='column_types')
+print(result)
+
+paths = ['one: 1', 'two: 2', 'three: 3']
+data = {}
+[data.update({k: v}) for k, v in paths]
+
+print(json.dumps(data, indent=2))

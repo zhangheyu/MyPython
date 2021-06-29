@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 import logging
 
 
@@ -74,9 +76,30 @@ class obj_wrapper(object):
         print('class decorator ending')
 
 
+def decorator_of_class(func):
+    print('class of decorator')
+
+    def wrapper():
+        logging.warning("%s is running" % func.__name__)
+        return func()
+
+    return wrapper
+
+
+@decorator_of_class
+class test_class_with_decorator:
+    @staticmethod
+    def fun1():
+        print('fun1')
+
+    def fun2(self):
+        print('fun2 is running')
+
+
 @obj_wrapper
 def gong():
     print('self is gong')
+
 
 # 多装饰器
 def decorator_a(func):
@@ -134,3 +157,8 @@ def to_double(x):
 # bar("bar")
 # gong()
 # to_double(2)
+# test_class_with_decorator().fun1()
+# test_class_with_decorator().fun2()
+test_class = test_class_with_decorator()
+test_class.fun1()
+test_class.fun2()
