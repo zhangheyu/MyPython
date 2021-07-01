@@ -12,30 +12,30 @@ json_formatted_str = json.dumps(json_object, indent=2)
 
 root = {}
 path_dict = {
-  "/": {
-    "{{END}}": "/"
-  },
-  "/aa": {
-    "{{END}}": "/aa",
     "/": {
-      "{{END}}": "/aa/"
-    }
-  },
-  "/bb": {
-    "{{SUB_TREE}}": {
-      "{{END}}": "/bb/*"
+        "{{END}}": "/"
     },
-    "{{END}}": "/bb"
-  },
-  "/cc": {
-    "{{ANY}}": {
-      "/profile": {
-        "{{END}}": "/cc/{id}/profile"
-      }
+    "/aa": {
+        "{{END}}": "/aa",
+        "/": {
+            "{{END}}": "/aa/"
+        }
     },
-    'cc': 'ccccccc'
-  },
-  "/cl": {
+    "/bb": {
+        "{{SUB_TREE}}": {
+            "{{END}}": "/bb/*"
+        },
+        "{{END}}": "/bb"
+    },
+    "/cc": {
+        "{{ANY}}": {
+            "/profile": {
+                "{{END}}": "/cc/{id}/profile"
+            }
+        },
+        'cc': 'ccccccc'
+    },
+    "/cl": {
         "{{ANY}}": {
             "/profile": {
                 "{{END}}": "/cl/{id}/profile"
@@ -1035,13 +1035,48 @@ upstreams = {
         }
     }
 }
+parsedlog_export = {
+    "address": {
+        "_value": [{
+                "ip": "10.10.10.10",
+                "port": "1234",
+                "proto": "kafka",
+                "topic": "1111111"
+            },
+            {
+                "ip": "10.10.10.10",
+                "port": "1234",
+                "proto": "kafka",
+                "topic": "sdcx"
+            },
+            {
+                "ip": "1.2.3.4",
+                "port": "12345",
+                "proto": "udp",
+                "topic": ""
+            }
+        ]
+    },
+    "enabled": {
+        "_value": 1
+    },
+    "external_level": {
+        "_value": "debug"
+    },
+    "external_type": {
+        "_value": "all"
+    },
+    "rr_mode": {
+        "_value": 0
+    }
+}
 
 
 def get_all(node):
     values = {}
     for key, value in node.items():
-        # print('key:{}'.format(key))
-        # print('values:{}'.format(values))
+        print('key:{}'.format(key))
+        print('value:{}'.format(value))
 
         if key.startswith('_'):
             print('ignore key:{}'.format(key))
@@ -1055,12 +1090,15 @@ def get_all(node):
             print('call self')
             values[key] = get_all(value)
         else:
+            print('get v:{}'.format(v))
             values[key] = v
 
     return values
 
 
-values = get_all(upstreams)
+# values = get_all(upstreams)
 # print(json.dumps(values.values(), indent=2))    # python2.7 ok, python3 error, Object of type dict_values is not JSON serializable
-print(json.dumps(values, indent=2))
+# print(json.dumps(values, indent=2))
 
+values = get_all(parsedlog_export)
+print(json.dumps(values, indent=2))
