@@ -16,3 +16,22 @@ if match_str is None:
 else:
     print("只允许录入英文字母、数字、_、-、.")
     print("match到非法字符:{}".format(test_str[0]))
+
+value = ''
+with open('ports.conf', 'rb') as fp:
+    value = fp.read()
+# print('before:{}'.format(value))
+ret = re.sub('^Listen 20147\n', '', value.decode(),
+             flags=re.DOTALL | re.MULTILINE)  # 替换value中符合'^Listen 20147\n'模式的字符串为空
+# print('after:', ret)
+
+
+def to_double(matched):
+    # print(matched.group())
+    value_ = int(matched.group())
+    return str(value_ * 2)
+
+
+ori_text = "price is 66 $"
+sub = re.sub(r'\d+', to_double, ori_text)
+print('sub:', sub)
